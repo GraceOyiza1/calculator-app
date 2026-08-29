@@ -18,9 +18,6 @@ export default function PackIQPage() {
         
         {/* Header */}
         <div className="text-center mb-10 space-y-4 max-w-2xl">
-          <div className="inline-flex items-center px-3 py-1 rounded-none border border-brand-primary/20 bg-brand-primary/10 text-brand-primary text-xs font-semibold tracking-wide uppercase shadow-sm">
-            Pro Tools
-          </div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-brand-primary tracking-tight">
             Pack-IQ Pricing Engine
           </h1>
