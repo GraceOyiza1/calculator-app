@@ -7,9 +7,9 @@ import { z } from 'zod';
 import { Loader2, Package, Ruler, DollarSign, Scale } from 'lucide-react';
 
 const schema = z.object({
-  length: z.number({ invalid_type_error: 'Must be a number' }).positive('Must be positive'),
-  width: z.number({ invalid_type_error: 'Must be a number' }).positive('Must be positive'),
-  height: z.number({ invalid_type_error: 'Must be a number' }).positive('Must be positive'),
+  length: z.number().positive('Must be positive'),
+  width: z.number().positive('Must be positive'),
+  height: z.number().positive('Must be positive'),
   materialType: z.string().min(1, 'Material is required'),
 });
 
